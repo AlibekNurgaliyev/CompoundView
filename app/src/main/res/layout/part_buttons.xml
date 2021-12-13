@@ -12,11 +12,14 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
+        android:freezesText="true"
         android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/space"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:rippleColor="#d8d8d8"
+
         tools:text="Negative Button" />
 
     <Space

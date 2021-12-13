@@ -13,10 +13,23 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="materialButtonStyle">@style/MyButtonsStyle</item>
+        <item name="bottomButtonsStyle">@style/DefaultMyButtonsStyle</item>
     </style>
 
     <style name="MyButtonsStyle" parent="Widget.MaterialComponents.Button">
         <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="ConcretePositiveBgColor">
+        <item name="bottomPositiveBackgroundColor">#008800</item>
+    </style>
+
+    <style name="DefaultMyButtonsStyle">
+        <item name="bottomPositiveBackgroundColor">#880000</item>
+    </style>
+
+    <style name="MyBottomButtonsStyle">
+        <item name="bottomPositiveBackgroundColor">#ff8800</item>
     </style>
 
 

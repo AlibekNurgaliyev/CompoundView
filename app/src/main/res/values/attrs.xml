@@ -5,8 +5,8 @@
         <attr name="bottomPositiveBackgroundColor" format="color" />
         <attr name="bottomNegativeButtonText" format="string" />
         <attr name="bottomNegativeBackgroundColor" format="color" />
-        <attr name="bottomProgressMode" format="boolean"/>
+        <attr name="bottomProgressMode" format="boolean" />
     </declare-styleable>
 
-    <attr name="bottomButtonStyle" format="reference"/>
+    <attr name="bottomButtonsStyle" format="reference" />
 </resources>
